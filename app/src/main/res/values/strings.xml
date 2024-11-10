@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizzIndiaApp</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="click_to_register">Click_to_Register</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click_to_Login</string>
+    <string name="logout">Logout</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="instructions">Instructions</string>
+</resources>

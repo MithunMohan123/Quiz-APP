@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/activity_instruction.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image61"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/instructionText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="98dp"
+        android:src="@drawable/vic2" />
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/instructionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌟 Welcome to Quiz India!🌟\n\nGet ready to explore the beauty of India through 10 exciting questions. Choose the correct option for each question and prove your knowledge!\n\nReady? Let's begin the journey! 🚀"
+        android:textSize="20sp"
+        android:layout_margin="20sp"
+        android:layout_below="@id/image61"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/startQuizBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructionText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="126dp"
+        android:onClick="startQuiz"
+        android:text="@string/start_quiz"
+        android:textSize="20sp" />
+
+</RelativeLayout>

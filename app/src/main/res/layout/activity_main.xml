@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/theme2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations! You've successfully registered for the Quiz India App.\nNow, challenge your knowledge and enjoy the quiz experience!"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="308dp"
+        android:layout_height="345dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/logout" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="382dp"
+        android:layout_height="122dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/wave__2_" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564748481383",
+    "project_id": "quizzindiaapp",
+    "storage_bucket": "quizzindiaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564748481383:android:5ceb81e97f74a8510435c2",
+        "android_client_info": {
+          "package_name": "com.example.quizzindiaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyRNzW3a7A78WMbcHPGshn-qozvHOScbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
