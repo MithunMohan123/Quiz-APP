@@ -1,4 +1,4 @@
-Abstract:
+
 QuizIndia is a dynamic and interactive quiz app designed to provide users with an engaging and educational experience. The app leverages the power of Firebase, a real-time database, to deliver smooth and responsive quiz features.
 
 Functionalities:
@@ -28,6 +28,7 @@ Functionalities:
 
 
 Module :
+
 1.User Interface (UI) Module:
    - Activities and Fragments: Each screen of the app can be a separate activity or fragment, such as the main quiz screen, question display screen, result screen, etc.
    - Layouts: XML layout files for each activity/fragment.
